@@ -15,6 +15,9 @@ This project is a simple, user-friendly calculator built using HTML, CSS, and Ja
 * CSS3: For styling the calculator, ensuring it has a modern and visually appealing design.
 * JavaScript: For handling the calculator's logic and making it interactive.
 
+## Preview
+https://shravanidhandrut13.github.io/Calculator---Calc_U_Late/
+
 ## Screenshot
 
 ![thumbnail(task3)](https://github.com/user-attachments/assets/6dcb2aad-3852-4524-8abf-3e66a35be366)
