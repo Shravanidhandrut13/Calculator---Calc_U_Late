@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Nerko One;
+}
+
+header h1 {
+    font-size: 2.6em;
+    color: #227eee;
+}
+
+header h1 span {
+    color: #f35d52;
+    font-size: 1.7em;
+}
+
+.cal {
+    position: relative;
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cal .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#value {
+    grid-column: span 4;
+    user-select: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: end;
+    color: #000;
+    height: 100px;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    padding-top: 28px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.cal .buttons span {
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #000;
+    border: 1px solid #393939;
+    border-radius: 10px;
+}
+
+.cal .buttons span:active {
+    color: #ffffff;
+    border: 1px solid #000;
+}
+
+#clear {
+    grid-column: span 2;
+    background-color: #f44336;
+    border: 2px solid #edf1f4;
+    color: #fff;
+}
+
+#plus,
+#upon,
+#into,
+#minus {
+    background-color: #69b3f5;
+    border: 2px solid #edf1f4;
+    color: #fff;
+}
+
+#equal {
+    background-color: #26af7a;
+    border: 2px solid #edf1f4;
+    color: #fff;
+}
+
+#backspace:active,
+#upon:active,
+#minus:active,
+#into:active,
+#clear:active,
+#plus:active,
+#equal:active {
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+#backspace {
+    background-color: #9b9b9b;
+    color: #fff;
+    border: 2px solid #edf1f4;
+    grid-column: span 1;
+}
